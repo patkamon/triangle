@@ -16,6 +16,7 @@ class TriangleTest(unittest.TestCase):
         self.assertFalse( is_triangle(2, 1, 1) )   # borderline case
         self.assertFalse( is_triangle(6, 10, 4) )  # borderline case
         self.assertFalse( is_triangle(6, 20, 4) )
+        self.assertFalse( is_triangle(6, 20, 100) )
 
     def test_invalid_argument_raises_exception(self):
         """any non-positive argument should raise ValueError"""

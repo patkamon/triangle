@@ -21,7 +21,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 4. Is there any part of the code under test (`trinagle.py`) that was not tested?
 
-   Write the Line Numbers here: [          ]
+   Write the Line Numbers here: [    22    ]
 
 5. Modify the tests so that all lines of the code are tested.
 
@@ -36,7 +36,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 8. Normally, **all** the lines of test code should be executed.  When some part of test code is not executed it may indicate a problem with the tests.  Explain the problem in the unit test code. (write you answer below).
 
-   Answer:
+   Answer: There are no problem.
 
 
 
@@ -65,7 +65,7 @@ Example:
 class TriangleTest(unittest.TestCase):
     # The list of values for your tests can be defined:  
     # - outside the class (global variable)
-    # - as a class variable (like this) 
+    # - as a class variable (like this)
     # - as a local variable inside the test method.
     # Use which ever is most readable.
     valid_triangles = [
@@ -85,7 +85,7 @@ class TriangleTest(unittest.TestCase):
 
 ### Install Coverage Package
 
-On most systems you install it using "pip" or "pip3": 
+On most systems you install it using "pip" or "pip3":
 ```bash
 pip3 install coverage`
 ```
